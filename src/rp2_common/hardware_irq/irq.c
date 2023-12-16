@@ -10,7 +10,7 @@
 #include "hardware/structs/scb.h"
 #include "hardware/claim.h"
 
-#include "pico/mutex.h"
+//#include "pico/mutex.h"
 #include "pico/assert.h"
 
 extern void __unhandled_user_irq(void);
