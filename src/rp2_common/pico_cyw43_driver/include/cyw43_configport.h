@@ -13,6 +13,11 @@
 #include "hardware/gpio.h"
 #include "pico/time.h"
 
+#ifdef CYW43_CUSTOM_CONFIG
+#include CYW43_CUSTOM_CONFIG
+#endif
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
